@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+}
+ul{
+  Height:50px;
+  float:center;
+}
+ul li{
+  display:inline-block;
+  text-decoration:none;
+  color:Black;
+  padding:6px 21px;
+  border:2px solid black;
+  }
+ul li a:hover{
+  background-color:blue;
+  color:white;
+}
+table tr td{
+
+  text-decoration:none;
+  color:Black;
+  padding:6px 21px;
+  border:2px solid black;
+  }
+table tr td a:hover{
+    background-color:blue;
+    color:yellow
+}

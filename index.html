@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Careers in technology </title>
+
+      <link  rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <form role="search" id="form">
+      <input type="search" id="query" name="q"
+              placeholder="Search..."
+              aria-label="Search through site content">
+            <button>
+                <svg viewBox="0 0 1024 1024">
+                  <path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z">
+                  </path>
+                </svg>
+            </button>
+    </form>
+  <script>
+        const f = document.getElementById('form');
+        const q = document.getElementById('query');
+        const google = 'https://www.google.com/search?q=site%3A+';
+        const site = 'pagedart.com';
+
+        function submitted(event) {
+          event.preventDefault();
+          const url = google + site + '+' + q.value;
+          const win = window.open(url, '_blank');
+          win.focus();
+        }
+
+        f.addEventListener('submit', submitted);
+      </script>
+    <table cellspacing="7" cellpadding="7">
+       <td>
+		       <img src="technology7.PNG" width="700" height="500"align="center">
+       </td>
+		   <td>
+           <p>
+             <b>
+               <font size="50" face="Copper black" height="500">Technology  with some </br> of the careers it</br> has to offer
+               </font>
+               <b>
+             </p>
+
+
+             </br>
+			        <h2>Introduction</h2>
+              Technology refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes.
+              It is the sum of any techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation.
+              Technology can be the knowledge of techniques, processes, and the like, or it can be embedded in machines to allow for operation without detailed knowledge of their workings.
+              Systems (e.g. machines) applying technology by taking an input, changing it according to the system's use, and then producing an outcome are referred to as technology systems or technological systems.
+              <a href="Technology.html">Read more</a>
+        </td>
+		</table>
+    <header>
+      <div class="main">
+            <ul>
+			       <li><a href="index.html">Home</a></li>
+             <li><a href="Careers.html">Careers</a></li>
+			      <li><a href="About.html">About</a></li>
+          </ul>
+      </div>
+    </header>
+
+
+
+  </body>
+</html>
